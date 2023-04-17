@@ -1,2 +1,1 @@
-# hello-world
-First website from scratch for Code Fellows
+# My First Website

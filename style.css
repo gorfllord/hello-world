@@ -29,12 +29,18 @@ header h1 {
 header nav {
   text-align: right;
 }
-header nav ul li {
+header nav ul li{
   display: inline-block;
   background-color: #ccc;
   border: 1px solid black;
   padding: 5px;
   margin: 10px;
+}
+a:visited{
+  color: rgb(77, 45, 9);
+}
+a:link{
+  color: #641106;
 }
 main {
   width: 80%;

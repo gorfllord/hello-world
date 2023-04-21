@@ -16,7 +16,7 @@ header {
   margin: auto;
   background-color: #aaa
 }
-header img{
+header img {
   float: left;
   width: 120px;
   padding-top: 10px;
@@ -29,17 +29,17 @@ header h1 {
 header nav {
   text-align: right;
 }
-header nav ul li{
+header nav ul li {
   display: inline-block;
   background-color: #ccc;
   border: 1px solid black;
   padding: 5px;
   margin: 10px;
 }
-a:visited{
+a:visited {
   color: rgb(77, 45, 9);
 }
-a:link{
+a:link {
   color: #641106;
 }
 main {
@@ -65,7 +65,7 @@ article {
   margin-left: 1%;
   vertical-align: top;
 }
-article h2{
+article h2 {
   text-align: center;
 }
 p {
@@ -73,12 +73,21 @@ p {
   width: 90%;
   text-align: left;
 }
+#throw {
+  width: 100%;
+  text-align: center;
+}
+#throwButton {
+  padding: 20px;
+  margin: 20px;
+  background-color: #d60e0e;
+}
 footer {
   background-color: #ccc;
   width: 80%;
   margin: auto;
   border-radius: 30px;
 }
-footer p{
+footer p {
   text-align: right;
 }

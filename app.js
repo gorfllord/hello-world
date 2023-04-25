@@ -13,16 +13,26 @@ function rPSThrow(){
         userThrow = prompt("What'll it be, " + userName + "?");
     }
     if (userThrow == "paper" || userThrow == "Paper") {
+        const paperSound = new Audio("https://www.fesliyanstudios.com/play-mp3/1668");
+        paperSound.play();
         alert("You've got me surrounded! Foiled again!");
         alert("VICTORY");
-        losses = losses + 1;
+        losses++;
         alert("You've beaten me " + losses + " time(s)")
     } else if (userThrow == "scissors" || userThrow == "Scissors") {
+        const scissorsSound = new Audio("https://www.myinstants.com/media/sounds/whomp-sound.mp3");
+        scissorsSound.play();
+        setTimeout(1000);
         alert("Your sharp wits have been stymied again!");
         alert("DEFEAT");
-        wins = wins + 1;
+        wins++;
         alert("You've been defeated " + wins + " time(s)")
+    } else if (userThrow == "Spock" || "spock" || "Lizard" || "lizard" || "Dynamite" || "dynamite" || "Bomb" || "bomb") {
+        alert("Nice try, but that's not a legal throw!")
+        const niceTry = new Audio("https://www.myinstants.com/media/sounds/the-price-is-right-losing-horn.mp3");
+        niceTry.play();
     } else {
         alert("I didn't hear you, what was that? Try again");
+        rPSThrow();
     }
 }

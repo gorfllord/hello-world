@@ -13,12 +13,12 @@ function rPSThrow(){
         userThrow = prompt("What'll it be, " + userName + "?");
     }
     if (userThrow == "paper" || userThrow == "Paper") {
-        const paperSound = new Audio("https://www.fesliyanstudios.com/play-mp3/1668");
+        const paperSound = new Audio("https://www.fesliyanstudios.com/play-mp3/1667");
         paperSound.play();
         alert("You've got me surrounded! Foiled again!");
         alert("VICTORY");
         losses++;
-        alert("You've beaten me " + losses + " time(s)")
+        alert("You've beaten me " + losses + " time(s)");
     } else if (userThrow == "scissors" || userThrow == "Scissors") {
         const scissorsSound = new Audio("https://www.myinstants.com/media/sounds/whomp-sound.mp3");
         scissorsSound.play();
@@ -26,8 +26,8 @@ function rPSThrow(){
         alert("Your sharp wits have been stymied again!");
         alert("DEFEAT");
         wins++;
-        alert("You've been defeated " + wins + " time(s)")
-    } else if (userThrow == "Spock" || "spock" || "Lizard" || "lizard" || "Dynamite" || "dynamite" || "Bomb" || "bomb") {
+        alert("You've been defeated " + wins + " time(s)");
+    } else if (userThrow == "Spock" || userThrow == "spock" || userThrow == "Lizard" || userThrow == "lizard" || userThrow == "Dynamite" || userThrow == "dynamite" || userThrow == "Bomb" || userThrow == "bomb") {
         alert("Nice try, but that's not a legal throw!")
         const niceTry = new Audio("https://www.myinstants.com/media/sounds/the-price-is-right-losing-horn.mp3");
         niceTry.play();

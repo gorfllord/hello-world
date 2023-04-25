@@ -82,6 +82,13 @@ p {
   margin: 20px;
   background-color: #d60e0e;
 }
+#resultBlock p {
+  text-align: center;
+  width: 100%;
+}
+#resultBlock p img {
+  width: 50px;
+}
 footer {
   background-color: #ccc;
   width: 80%;

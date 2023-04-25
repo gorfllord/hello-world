@@ -26,6 +26,9 @@ function rockResultBuilder(){
 }
 function rPSThrow(){
     let howMany = prompt("How many times do you want to throw down?");
+    while (howMany <= 0) {
+        howMany = prompt("I need a number bigger than zero, buckaroo. How many times do you want to throw down?");
+    }
     for (let i = 0; i < howMany; i++) {
         if (userName == null || userName == "") {
             userThrow = prompt("What'll it be, cowboy?");
